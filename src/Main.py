@@ -13,8 +13,8 @@ def main():
 
     paused_text: str = "[PAUSED]"
     paused_sub_text: str = ""
-
-    font_path: str = path.join("..", "assets", "font.ttf")
+    
+    font_path: str = path.join(path.dirname(__file__), path.pardir, "assets", "font.ttf")
     font: pygame.font = pygame.font.Font(font_path, 96)
     sub_font: pygame.font = pygame.font.Font(font_path, 48)
 
