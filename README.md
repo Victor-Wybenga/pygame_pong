@@ -16,4 +16,5 @@ First to 3 points wins.
   * Can be installed from [`python.org`](https://www.python.org/download).
 
 ## Building/Running
-* Download the source and run the `Main.py` file in the `src` folder.
+* Download the source and run the `Main.py` file in the `src` folder, using the Python Launcher.
+* If you are running it from the command line/terminal, you may need to `cd` into the `src` folder directory.

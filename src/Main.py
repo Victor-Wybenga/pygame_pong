@@ -14,8 +14,9 @@ def main():
     paused_text: str = "[PAUSED]"
     paused_sub_text: str = ""
 
-    font: pygame.font = pygame.font.Font(path.join("assets", "font.ttf"), 96)
-    sub_font: pygame.font = pygame.font.Font(path.join("assets", "font.ttf"), 48)
+    font_path: str = path.join("..", "assets", "font.ttf")
+    font: pygame.font = pygame.font.Font(font_path, 96)
+    sub_font: pygame.font = pygame.font.Font(font_path, 48)
 
     while running:
         dt: float = clock.tick(60) / 1000
