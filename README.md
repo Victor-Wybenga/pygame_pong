@@ -8,3 +8,12 @@ First to 3 points wins.
 * I: move right paddle up.
 * K: move right paddle down.
 * Space: pause game.
+
+## Depenencies
+* Pygame (>=2.5.1)
+  * Can be installed using pip: `pip install pygame`, assuming python is installed.
+* Python (>=3.11.5)
+  * Can be installed from [`python.org`](https://www.python.org/download).
+
+## Building/Running
+* Download the source and run the `Main.py` file in the `src` folder.
